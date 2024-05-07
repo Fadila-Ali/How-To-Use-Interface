@@ -1,0 +1,10 @@
+package com.fadila;
+
+public interface Movable {
+    void moveUp();
+    void moveDown();
+    void moveLeft();
+    void moveRight();
+
+    String getCoordinate();
+}
